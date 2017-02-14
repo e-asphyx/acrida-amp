@@ -171,8 +171,9 @@
 <wire x1="33.02" y1="87.63" x2="0" y2="87.63" width="2.54" layer="42"/>
 <wire x1="0" y1="36.83" x2="22.86" y2="36.83" width="0.8128" layer="41"/>
 <wire x1="0" y1="36.83" x2="22.86" y2="36.83" width="0.8128" layer="42"/>
-<dimension x1="161.29" y1="0" x2="161.29" y2="168.91" x3="180.34" y3="84.455" textsize="1.27" layer="47" dtype="vertical"/>
-<dimension x1="0" y1="168.91" x2="161.29" y2="168.91" x3="80.645" y3="186.69" textsize="1.27" layer="47" dtype="horizontal"/>
+<dimension x1="161.29" y1="0" x2="161.29" y2="168.91" x3="180.34" y3="84.455" textsize="1.778" layer="47" dtype="vertical"/>
+<dimension x1="0" y1="168.91" x2="161.29" y2="168.91" x3="80.645" y3="186.69" textsize="1.778" layer="47" dtype="horizontal"/>
+<dimension x1="43.18" y1="180.975" x2="140.97" y2="-6.985" x3="187.96" y3="86.995" textsize="1.778" layer="47" dtype="vertical"/>
 </plain>
 <libraries>
 <library name="my-smps">
