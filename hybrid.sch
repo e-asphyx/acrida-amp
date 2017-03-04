@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.0.1">
+<eagle version="8.0.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -19512,7 +19512,7 @@ Source: http://www.onsemi.co.jp .. LM317M-D.PDF</description>
 <part name="GND31" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="A1" library="my-smps" deviceset="R-78HBXX-0.5" device=""/>
 <part name="GND28" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="R39" library="my-res" deviceset="RESISTOR" device="PTH-1/2W" value="0.549"/>
+<part name="R39" library="my-res" deviceset="RESISTOR" device="PTH-1/2W" value="0.51"/>
 <part name="GB1" library="my" deviceset="COPPER-BRIDGE" device="SM" value=""/>
 <part name="GND29" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="FRAME1" library="frames" deviceset="DINA3_L" device=""/>
