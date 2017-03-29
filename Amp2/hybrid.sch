@@ -4597,131 +4597,6 @@ NS Package M08A</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="my-transformers">
-<packages>
-<package name="TR-LP30-1600">
-<pad name="3" x="-27.686" y="-23.622" drill="1.6" diameter="3.81" shape="long"/>
-<pad name="7" x="27.686" y="-23.622" drill="1.6" diameter="3.81" shape="long"/>
-<pad name="4" x="-27.686" y="-8.382" drill="1.6" diameter="3.81" shape="long"/>
-<pad name="8" x="27.686" y="-8.382" drill="1.6" diameter="3.81" shape="long"/>
-<pad name="2" x="-27.686" y="8.382" drill="1.6" diameter="3.81" shape="long"/>
-<pad name="6" x="27.686" y="8.382" drill="1.6" diameter="3.81" shape="long"/>
-<pad name="1" x="-27.686" y="23.622" drill="1.6" diameter="3.81" shape="long"/>
-<pad name="5" x="27.686" y="23.622" drill="1.6" diameter="3.81" shape="long"/>
-<hole x="-33.274" y="0" drill="4"/>
-<hole x="33.274" y="0" drill="4"/>
-<circle x="-33.274" y="0" radius="3.5" width="3.2" layer="42"/>
-<circle x="33.274" y="0" radius="3.5" width="3.2" layer="42"/>
-<wire x1="-28" y1="-31.75" x2="28" y2="-31.75" width="0.3048" layer="21"/>
-<wire x1="-28" y1="31.75" x2="28" y2="31.75" width="0.3048" layer="21"/>
-<wire x1="-28" y1="31.75" x2="-28" y2="26.27" width="0.3048" layer="21"/>
-<wire x1="-28" y1="20.73" x2="-28" y2="11.27" width="0.3048" layer="21"/>
-<wire x1="-28" y1="5.73" x2="-28" y2="-5.73" width="0.3048" layer="21"/>
-<wire x1="-28" y1="-11.27" x2="-28" y2="-20.73" width="0.3048" layer="21"/>
-<wire x1="-28" y1="-31.75" x2="-28" y2="-26.27" width="0.3048" layer="21"/>
-<wire x1="28" y1="-31.75" x2="28" y2="-26.27" width="0.3048" layer="21"/>
-<wire x1="28" y1="-20.73" x2="28" y2="-11.27" width="0.3048" layer="21"/>
-<wire x1="28" y1="-5.73" x2="28" y2="5.73" width="0.3048" layer="21"/>
-<wire x1="28" y1="11.27" x2="28" y2="20.73" width="0.3048" layer="21"/>
-<wire x1="28" y1="31.75" x2="28" y2="26.27" width="0.3048" layer="21"/>
-<wire x1="-39.6" y1="-24" x2="-39.6" y2="24" width="0.3048" layer="21"/>
-<wire x1="39.6" y1="-24" x2="39.6" y2="24" width="0.3048" layer="21"/>
-<wire x1="-39.6" y1="-24" x2="-33.04" y2="-24" width="0.3048" layer="21"/>
-<wire x1="-39.6" y1="24" x2="-33.04" y2="24" width="0.3048" layer="21"/>
-<wire x1="39.6" y1="24" x2="33.04" y2="24" width="0.3048" layer="21"/>
-<wire x1="39.6" y1="-24" x2="33.04" y2="-24" width="0.3048" layer="21"/>
-<text x="-21.73" y="23" size="1.9304" layer="21" font="fixed" ratio="15">1</text>
-<text x="-21.73" y="7.5" size="1.9304" layer="21" font="fixed" ratio="15">2</text>
-<text x="-21.73" y="-9.5" size="1.9304" layer="21" font="fixed" ratio="15">4</text>
-<text x="-21.73" y="-24.5" size="1.9304" layer="21" font="fixed" ratio="15">3</text>
-<text x="20.73" y="23" size="1.9304" layer="21" font="fixed" ratio="15">5</text>
-<text x="20.73" y="7.5" size="1.9304" layer="21" font="fixed" ratio="15">6</text>
-<text x="20.73" y="-9.5" size="1.9304" layer="21" font="fixed" ratio="15">8</text>
-<text x="20.73" y="-24.5" size="1.9304" layer="21" font="fixed" ratio="15">7</text>
-<text x="0" y="8" size="1.9304" layer="25" font="fixed" ratio="15" align="bottom-center">&gt;NAME</text>
-<text x="0" y="-9" size="1.9304" layer="27" font="fixed" ratio="15" align="bottom-center">&gt;VALUE</text>
-<circle x="-33.274" y="0" radius="3.5" width="3.2" layer="41"/>
-<circle x="33.274" y="0" radius="3.5" width="3.2" layer="41"/>
-</package>
-</packages>
-<symbols>
-<symbol name="TR-LP30">
-<wire x1="-5.08" y1="-2.54" x2="-3.81" y2="-3.81" width="0.254" layer="94" curve="-90" cap="flat"/>
-<wire x1="-5.08" y1="-5.08" x2="-3.81" y2="-3.81" width="0.254" layer="94" curve="90" cap="flat"/>
-<wire x1="-5.08" y1="-5.08" x2="-3.81" y2="-6.35" width="0.254" layer="94" curve="-90" cap="flat"/>
-<wire x1="-5.08" y1="-7.62" x2="-3.81" y2="-6.35" width="0.254" layer="94" curve="90" cap="flat"/>
-<wire x1="-5.08" y1="-7.62" x2="-3.81" y2="-8.89" width="0.254" layer="94" curve="-90" cap="flat"/>
-<wire x1="-5.08" y1="-10.16" x2="-3.81" y2="-8.89" width="0.254" layer="94" curve="90" cap="flat"/>
-<wire x1="-5.08" y1="-10.16" x2="-3.81" y2="-11.43" width="0.254" layer="94" curve="-90" cap="flat"/>
-<wire x1="-5.08" y1="-12.7" x2="-3.81" y2="-11.43" width="0.254" layer="94" curve="90" cap="flat"/>
-<text x="-5.08" y="15.24" size="1.778" layer="95" font="vector">&gt;NAME</text>
-<text x="-5.08" y="-17.78" size="1.778" layer="96" font="vector">&gt;VALUE</text>
-<wire x1="-5.08" y1="12.7" x2="-3.81" y2="11.43" width="0.254" layer="94" curve="-90" cap="flat"/>
-<wire x1="-5.08" y1="10.16" x2="-3.81" y2="11.43" width="0.254" layer="94" curve="90" cap="flat"/>
-<wire x1="-5.08" y1="10.16" x2="-3.81" y2="8.89" width="0.254" layer="94" curve="-90" cap="flat"/>
-<wire x1="-5.08" y1="7.62" x2="-3.81" y2="8.89" width="0.254" layer="94" curve="90" cap="flat"/>
-<wire x1="-5.08" y1="7.62" x2="-3.81" y2="6.35" width="0.254" layer="94" curve="-90" cap="flat"/>
-<wire x1="-5.08" y1="5.08" x2="-3.81" y2="6.35" width="0.254" layer="94" curve="90" cap="flat"/>
-<wire x1="-5.08" y1="5.08" x2="-3.81" y2="3.81" width="0.254" layer="94" curve="-90" cap="flat"/>
-<wire x1="-5.08" y1="2.54" x2="-3.81" y2="3.81" width="0.254" layer="94" curve="90" cap="flat"/>
-<wire x1="5.08" y1="-12.7" x2="3.81" y2="-11.43" width="0.254" layer="94" curve="-90" cap="flat"/>
-<wire x1="5.08" y1="-10.16" x2="3.81" y2="-11.43" width="0.254" layer="94" curve="90" cap="flat"/>
-<wire x1="5.08" y1="-10.16" x2="3.81" y2="-8.89" width="0.254" layer="94" curve="-90" cap="flat"/>
-<wire x1="5.08" y1="-7.62" x2="3.81" y2="-8.89" width="0.254" layer="94" curve="90" cap="flat"/>
-<wire x1="5.08" y1="-7.62" x2="3.81" y2="-6.35" width="0.254" layer="94" curve="-90" cap="flat"/>
-<wire x1="5.08" y1="-5.08" x2="3.81" y2="-6.35" width="0.254" layer="94" curve="90" cap="flat"/>
-<wire x1="5.08" y1="-5.08" x2="3.81" y2="-3.81" width="0.254" layer="94" curve="-90" cap="flat"/>
-<wire x1="5.08" y1="-2.54" x2="3.81" y2="-3.81" width="0.254" layer="94" curve="90" cap="flat"/>
-<wire x1="5.08" y1="2.54" x2="3.81" y2="3.81" width="0.254" layer="94" curve="-90" cap="flat"/>
-<wire x1="5.08" y1="5.08" x2="3.81" y2="3.81" width="0.254" layer="94" curve="90" cap="flat"/>
-<wire x1="5.08" y1="5.08" x2="3.81" y2="6.35" width="0.254" layer="94" curve="-90" cap="flat"/>
-<wire x1="5.08" y1="7.62" x2="3.81" y2="6.35" width="0.254" layer="94" curve="90" cap="flat"/>
-<wire x1="5.08" y1="7.62" x2="3.81" y2="8.89" width="0.254" layer="94" curve="-90" cap="flat"/>
-<wire x1="5.08" y1="10.16" x2="3.81" y2="8.89" width="0.254" layer="94" curve="90" cap="flat"/>
-<wire x1="5.08" y1="10.16" x2="3.81" y2="11.43" width="0.254" layer="94" curve="-90" cap="flat"/>
-<wire x1="5.08" y1="12.7" x2="3.81" y2="11.43" width="0.254" layer="94" curve="90" cap="flat"/>
-<wire x1="-0.762" y1="12.7" x2="-0.762" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="0.762" y1="12.7" x2="0.762" y2="-12.7" width="0.254" layer="94"/>
-<pin name="4" x="-7.62" y="12.7" visible="off" length="short"/>
-<pin name="3" x="-7.62" y="2.54" visible="off" length="short"/>
-<pin name="2" x="-7.62" y="-2.54" visible="off" length="short"/>
-<pin name="1" x="-7.62" y="-12.7" visible="off" length="short"/>
-<pin name="5" x="7.62" y="12.7" visible="off" length="short" rot="R180"/>
-<pin name="6" x="7.62" y="2.54" visible="off" length="short" rot="R180"/>
-<pin name="7" x="7.62" y="-2.54" visible="off" length="short" rot="R180"/>
-<pin name="8" x="7.62" y="-12.7" visible="off" length="short" rot="R180"/>
-<circle x="-6.35" y="3.81" radius="0.508" width="0.254" layer="94"/>
-<circle x="6.35" y="11.43" radius="0.508" width="0.254" layer="94"/>
-<circle x="6.35" y="-3.81" radius="0.508" width="0.254" layer="94"/>
-<circle x="-6.35" y="-11.43" radius="0.508" width="0.254" layer="94"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="TR-LP30-1600" prefix="T">
-<description>http://www.mouser.com/ds/2/643/LP-892507.pdf</description>
-<gates>
-<gate name="G$1" symbol="TR-LP30" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="TR-LP30-1600">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-<connect gate="G$1" pin="7" pad="7"/>
-<connect gate="G$1" pin="8" pad="8"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="rectifier">
 <description>&lt;b&gt;Rectifiers&lt;/b&gt;&lt;p&gt;
 General Instrument, Semikron, Diotec, Fagor&lt;p&gt;
@@ -19420,6 +19295,54 @@ Source: http://www.onsemi.co.jp .. LM317M-D.PDF</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="wirepad">
+<description>&lt;b&gt;Single Pads&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="3,81/1,4">
+<description>&lt;b&gt;THROUGH-HOLE PAD&lt;/b&gt;</description>
+<wire x1="1.905" y1="-1.27" x2="1.905" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="-1.905" x2="1.27" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-1.27" y1="-1.905" x2="-1.905" y2="-1.905" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="-1.905" x2="-1.905" y2="-1.27" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="1.27" x2="-1.905" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="-1.905" y1="1.905" x2="-1.27" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="1.27" y1="1.905" x2="1.905" y2="1.905" width="0.1524" layer="21"/>
+<wire x1="1.905" y1="1.905" x2="1.905" y2="1.27" width="0.1524" layer="21"/>
+<circle x="0" y="0" radius="1.27" width="0.1524" layer="51"/>
+<pad name="1" x="0" y="0" drill="1.397" diameter="3.81" shape="octagon"/>
+<text x="-1.905" y="2.286" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="0" y="1.2" size="0.0254" layer="27">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="PAD">
+<wire x1="-1.016" y1="1.016" x2="1.016" y2="-1.016" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="-1.016" x2="1.016" y2="1.016" width="0.254" layer="94"/>
+<text x="-1.143" y="1.8542" size="1.778" layer="95">&gt;NAME</text>
+<text x="-1.143" y="-3.302" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="P" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="3,81/1,4" prefix="PAD" uservalue="yes">
+<description>&lt;b&gt;THROUGH-HOLE PAD&lt;/b&gt;</description>
+<gates>
+<gate name="1" symbol="PAD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="3,81/1,4">
+<connects>
+<connect gate="1" pin="P" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -19563,7 +19486,6 @@ Source: http://www.onsemi.co.jp .. LM317M-D.PDF</description>
 <part name="C12" library="SparkFun-Capacitors" deviceset="CAP" device="PTH" value="0.1uF"/>
 <part name="GND20" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="J3" library="my-conn" deviceset="703W-00/54" device=""/>
-<part name="T1" library="my-transformers" deviceset="TR-LP30-1600" device=""/>
 <part name="B1" library="rectifier" deviceset="GBU4" device=""/>
 <part name="F1" library="fuse" deviceset="SH22,5" device=""/>
 <part name="S1" library="my-sw" deviceset="SW-M2012SA2W40" device=""/>
@@ -19601,6 +19523,10 @@ Source: http://www.onsemi.co.jp .. LM317M-D.PDF</description>
 <part name="Q11" library="my-tran" deviceset="KSP06" device="KINKED"/>
 <part name="R24" library="SparkFun-Resistors" deviceset="RESISTOR" device="PTH-1/4W" value="5.1k"/>
 <part name="GND23" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="PAD1" library="wirepad" deviceset="3,81/1,4" device=""/>
+<part name="PAD2" library="wirepad" deviceset="3,81/1,4" device=""/>
+<part name="PAD3" library="wirepad" deviceset="3,81/1,4" device=""/>
+<part name="PAD4" library="wirepad" deviceset="3,81/1,4" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -20677,7 +20603,6 @@ Source: http://www.onsemi.co.jp .. LM317M-D.PDF</description>
 <instance part="FRAME2" gate="G$2" x="287.02" y="0"/>
 <instance part="J3" gate="L" x="50.8" y="210.82"/>
 <instance part="J3" gate="N" x="50.8" y="187.96"/>
-<instance part="T1" gate="G$1" x="104.14" y="200.66"/>
 <instance part="B1" gate="1" x="142.24" y="198.12"/>
 <instance part="F1" gate="1" x="63.5" y="210.82"/>
 <instance part="S1" gate="G$1" x="78.74" y="210.82"/>
@@ -20685,6 +20610,10 @@ Source: http://www.onsemi.co.jp .. LM317M-D.PDF</description>
 <instance part="R45" gate="G$1" x="337.82" y="160.02" rot="R270"/>
 <instance part="GND41" gate="1" x="337.82" y="134.62"/>
 <instance part="LOGO1" gate="G$1" x="271.78" y="5.08"/>
+<instance part="PAD1" gate="1" x="99.06" y="213.36" rot="R180"/>
+<instance part="PAD2" gate="1" x="99.06" y="187.96" rot="R180"/>
+<instance part="PAD3" gate="1" x="109.22" y="213.36"/>
+<instance part="PAD4" gate="1" x="109.22" y="187.96"/>
 </instances>
 <busses>
 </busses>
@@ -20955,29 +20884,11 @@ Source: http://www.onsemi.co.jp .. LM317M-D.PDF</description>
 <label x="177.8" y="35.56" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
-<net name="N$6" class="0">
-<segment>
-<pinref part="T1" gate="G$1" pin="3"/>
-<wire x1="96.52" y1="203.2" x2="93.98" y2="203.2" width="0.1524" layer="91"/>
-<wire x1="93.98" y1="203.2" x2="93.98" y2="198.12" width="0.1524" layer="91"/>
-<pinref part="T1" gate="G$1" pin="2"/>
-<wire x1="93.98" y1="198.12" x2="96.52" y2="198.12" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$9" class="0">
-<segment>
-<pinref part="T1" gate="G$1" pin="6"/>
-<wire x1="111.76" y1="203.2" x2="114.3" y2="203.2" width="0.1524" layer="91"/>
-<wire x1="114.3" y1="203.2" x2="114.3" y2="198.12" width="0.1524" layer="91"/>
-<pinref part="T1" gate="G$1" pin="7"/>
-<wire x1="114.3" y1="198.12" x2="111.76" y2="198.12" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$18" class="0">
 <segment>
 <pinref part="J3" gate="N" pin="P$1"/>
-<pinref part="T1" gate="G$1" pin="1"/>
 <wire x1="53.34" y1="187.96" x2="96.52" y2="187.96" width="0.1524" layer="91"/>
+<pinref part="PAD2" gate="1" pin="P"/>
 </segment>
 </net>
 <net name="N$40" class="0">
@@ -20997,19 +20908,19 @@ Source: http://www.onsemi.co.jp .. LM317M-D.PDF</description>
 <net name="N$45" class="0">
 <segment>
 <pinref part="S1" gate="G$1" pin="O"/>
-<pinref part="T1" gate="G$1" pin="4"/>
 <wire x1="81.28" y1="213.36" x2="96.52" y2="213.36" width="0.1524" layer="91"/>
+<pinref part="PAD1" gate="1" pin="P"/>
 </segment>
 </net>
 <net name="AC_2" class="0">
 <segment>
-<pinref part="T1" gate="G$1" pin="5"/>
 <pinref part="B1" gate="1" pin="AC1"/>
 <wire x1="111.76" y1="213.36" x2="142.24" y2="213.36" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="213.36" x2="142.24" y2="203.2" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="213.36" x2="142.24" y2="215.9" width="0.1524" layer="91"/>
 <junction x="142.24" y="213.36"/>
 <label x="142.24" y="215.9" size="1.778" layer="95" rot="R90" xref="yes"/>
+<pinref part="PAD3" gate="1" pin="P"/>
 </segment>
 <segment>
 <pinref part="C21" gate="G$1" pin="-"/>
@@ -21019,13 +20930,13 @@ Source: http://www.onsemi.co.jp .. LM317M-D.PDF</description>
 </net>
 <net name="AC_1" class="0">
 <segment>
-<pinref part="T1" gate="G$1" pin="8"/>
 <pinref part="B1" gate="1" pin="AC2"/>
 <wire x1="111.76" y1="187.96" x2="142.24" y2="187.96" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="187.96" x2="142.24" y2="193.04" width="0.1524" layer="91"/>
 <wire x1="142.24" y1="187.96" x2="142.24" y2="185.42" width="0.1524" layer="91"/>
 <junction x="142.24" y="187.96"/>
 <label x="142.24" y="185.42" size="1.778" layer="95" rot="R270" xref="yes"/>
+<pinref part="PAD4" gate="1" pin="P"/>
 </segment>
 <segment>
 <pinref part="D1" gate="G$1" pin="A"/>
