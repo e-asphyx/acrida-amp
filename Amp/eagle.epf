@@ -1,5 +1,5 @@
 [Eagle]
-Version="08 00 02"
+Version="08 01 00"
 Platform="Mac OS X"
 Globals="Globals"
 Desktop="Desktop"
@@ -43,18 +43,12 @@ UsedLibrary="/Users/asphyx/Downloads/Eagle-Libraries/my.lbr"
 UsedLibrary="/Users/asphyx/Downloads/Eagle-Libraries/tubes.lbr"
 
 [Win_1]
-Type="Control Panel"
-Loc="0 23 599 422"
-State=1
-Number=0
-
-[Win_2]
 Type="Schematic Editor"
 Loc="0 23 599 422"
 State=1
 Number=1
 File="hybrid.sch"
-View="26.7703 133.739 190.928 222.046"
+View="-3.78697 80.3934 306.039 247.062"
 WireWidths=" 0 0.3048 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0.4064 0.1524"
 PadDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
 PadDrills=" 0.5 0.6 0.7 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.8"
@@ -93,16 +87,16 @@ ArcDirection=0
 AddLevel=2
 PadsSameType=0
 Layer=98
-Views=" 1: 26.7703 133.739 190.928 222.046 2: 106.498 2.34503 237.795 200.458"
+Views=" 1: -3.78697 80.3934 306.039 247.062 2: 140.051 76.7163 246.682 237.611"
 Sheet="1"
 
-[Win_3]
+[Win_2]
 Type="Board Editor"
 Loc="80 124 1279 723"
 State=1
 Number=2
 File="hybrid.brd"
-View="-1.05689 26.3403 195.689 208.66"
+View="37.1211 -2.37752 89.8003 46.4388"
 WireWidths=" 0 0.254 0.3048 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0.4064"
 PadDiameters=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
 PadDrills=" 0.5 0.6 0.7 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.8"
@@ -141,6 +135,12 @@ ArcDirection=0
 AddLevel=2
 PadsSameType=0
 Layer=1
+
+[Win_3]
+Type="Control Panel"
+Loc="28 67 1227 666"
+State=1
+Number=0
 
 [Desktop]
 Screen="1280 800"
