@@ -1385,6 +1385,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="-1.54" y="2.89" size="0.8128" layer="27">&gt;Value</text>
 <text x="-1.54" y="5.16" size="0.8128" layer="25">&gt;Name</text>
 </package>
+<package name="CPOL-SNAPIN-22/10">
+<wire x1="-6.175" y1="2.905" x2="-4.945" y2="2.905" width="0.2032" layer="21"/>
+<circle x="0" y="0" radius="11" width="0.2032" layer="21"/>
+<pad name="2" x="-5" y="0" drill="2" diameter="3.81"/>
+<pad name="1" x="5" y="0" drill="2" diameter="3.81" shape="square"/>
+<text x="-1.54" y="2.89" size="0.8128" layer="27">&gt;Value</text>
+<text x="-1.54" y="5.16" size="0.8128" layer="25">&gt;Name</text>
+</package>
 </packages>
 <symbols>
 <symbol name="CAP_POL">
@@ -1526,6 +1534,15 @@ These are standard SMD and PTH capacitors. Normally 10uF, 47uF, and 100uF in ele
 </technologies>
 </device>
 <device name="SNAPIN-30/10" package="CPOL-SNAPIN-30/10">
+<connects>
+<connect gate="G$1" pin="+" pad="1"/>
+<connect gate="G$1" pin="-" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SNAPIN-22/10" package="CPOL-SNAPIN-22/10">
 <connects>
 <connect gate="G$1" pin="+" pad="1"/>
 <connect gate="G$1" pin="-" pad="2"/>
@@ -19855,8 +19872,8 @@ Grid 5.08 mm&lt;p&gt;
 <part name="D6" library="SparkFun-DiscreteSemi" deviceset="DIODE" device="PTH"/>
 <part name="D5" library="SparkFun-DiscreteSemi" deviceset="DIODE" device="PTH"/>
 <part name="C29" library="my-cap" deviceset="CAP_POL" device="PTH-12.5/5" value="100uF"/>
-<part name="C20" library="my-cap" deviceset="CAP_POL" device="PTH-18/7.5" value="470uF"/>
-<part name="C23" library="my-cap" deviceset="CAP_POL" device="PTH-18/7.5" value="470uF"/>
+<part name="C20" library="my-cap" deviceset="CAP_POL" device="SNAPIN-22/10" value="470uF"/>
+<part name="C23" library="my-cap" deviceset="CAP_POL" device="SNAPIN-22/10" value="470uF"/>
 <part name="D4" library="SparkFun-DiscreteSemi" deviceset="DIODE" device="PTH"/>
 <part name="D3" library="SparkFun-DiscreteSemi" deviceset="DIODE" device="PTH"/>
 <part name="GND36" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
